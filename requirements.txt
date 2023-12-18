@@ -1,0 +1,41 @@
+# We use python 3.10 and cuda 12.1
+# We only pin the versions of critical libraries (e.g. torch).
+
+# Pytorch
+torch==2.1.1
+torchvision==0.16.1
+
+# Deep learning helpers
+einops
+
+# Computational libraries
+pandas
+scipy
+scikit-learn
+
+# Visualization libraries
+matplotlib
+plotly
+seaborn
+
+# Experiment management
+wandb
+
+# Configuration parsing
+simple-parsing==0.1.4
+
+# Testing
+pytest
+
+# Misc utilities
+tqdm
+
+# Formatting, Linting, and Typechecking
+black[jupyter]
+isort
+
+# Utilities
+gpustat
+ipywidgets==7.7.3 # https://github.com/microsoft/vscode-jupyter/issues/11014
+jupyterlab
+magic-wormhole
