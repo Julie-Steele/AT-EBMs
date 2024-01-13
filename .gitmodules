@@ -1,3 +1,24 @@
+<<<<<<< HEAD
 [submodule "path/to/submodule"]
 	path = path/to/submodule
 	url = https://github.com/Julie-Steele/AT-EBMs.git
+=======
+[submodule "starganv2"]
+	path = starganv2
+	url = git@github.com:xuwangyin/stargan-v2.git
+[submodule "pytorch_fid"]
+	path = pytorch_fid
+	url = https://github.com/mseitzer/pytorch-fid.git
+[submodule "pytorch-fid"]
+	path = pytorch-fid
+	url = https://github.com/mseitzer/pytorch-fid.git
+[submodule "InNOutRobustness"]
+	path = InNOutRobustness
+	url = https://github.com/M4xim4l/InNOutRobustness.git
+[submodule "GOOD"]
+	path = GOOD
+	url = https://gitlab.com/Bitterwolf/GOOD.git
+[submodule "auto-attack"]
+	path = auto-attack
+	url = git@github.com:xuwangyin/auto-attack.git
+>>>>>>> 95cf4aca050f9380c874d39124a893e6b214e049
