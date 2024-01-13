@@ -1,3 +1,12 @@
 __pycache__
 .ipynb_checkpoints
 *.egg-info
+
+
+checkpoints/
+data/
+experiments/ 
+
+checkpoints-20240112T222938Z-001.zip
+data-20240112T222936Z-001.zip
+experiments-20240113T054144Z-001.zip

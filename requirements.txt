@@ -39,3 +39,8 @@ gpustat
 ipywidgets==7.7.3 # https://github.com/microsoft/vscode-jupyter/issues/11014
 jupyterlab
 magic-wormhole
+
+
+#added because of AT-EBMS requirements
+tensorboard
+tensorflow 
