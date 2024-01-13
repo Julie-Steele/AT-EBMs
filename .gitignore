@@ -5,6 +5,7 @@ __pycache__
 
 checkpoints/
 data/
+<<<<<<< HEAD
 datasets/
 experiments/ 
 prepare_datasets/
@@ -16,3 +17,10 @@ data-20240112T222936Z-001.zip
 experiments-20240113T054144Z-001.zip
 
 ILSVRC2012_img_train.tar
+=======
+experiments/ 
+
+checkpoints-20240112T222938Z-001.zip
+data-20240112T222936Z-001.zip
+experiments-20240113T054144Z-001.zip
+>>>>>>> a28d1dd0f111fcf542b7c4afb373128214881761
