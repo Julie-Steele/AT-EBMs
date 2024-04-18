@@ -11,7 +11,6 @@ unzip prepare_datasets/downloads/afhq_v2.zip -d prepare_datasets/downloads/afhq_
 #did the whole repair thing 
 # zip -FF prepare_datasets/downloads/afhq_v2.zip --out prepare_datasets/downloads/repaired.zip
 # unzip prepare_datasets/downloads/repaired.zip
-unzip prepare_datasets/downloads/repaired.zip -d prepare_datasets/downloads/afhq_v2
 python prepare_datasets/resize_crop.py --size 256 --datadir prepare_datasets/downloads/afhq_v2/train/cat --savedir datasets/afhq256/train/cat/data
 rm -rf prepare_datasets/downloads/afhq_v2
 rm prepare_datasets/downloads/afhq_v2.zip

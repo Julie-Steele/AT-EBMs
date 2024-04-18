@@ -1,6 +1,29 @@
 # Learning Energy-Based Models With Adversarial Training
 Paper link https://arxiv.org/abs/2012.06568
 
+
+# ADDING THINGS 
+
+new data in storage2/datasets 
+
+
+so i already have imagenet and the cats, so adding symbolic links. and my cats are at 
+
+mkdir -p ./datasets/imagenet256
+ln -s /storage2/datasets/imagenet-1k/train ./datasets/imagenet256/train
+ln -s /storage2/datasets/imagenet-1k/val ./datasets/imagenet256/val
+
+
+mkdir -p ./datasets/AFHQ-png/afhq256/train
+ln -s /home/jssteele-local/robust-ebms/datasets/AFHQ-png/afhq256/train ./datasets/AFHQ-png/afhq256/train
+cd
+then starganv2 issue? run: 
+
+git submodule init
+git submodule update
+
+
+
 ## Dependencies
 ```
 torch==1.7.1
